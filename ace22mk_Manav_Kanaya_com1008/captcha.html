@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset = "utf-8">
+  <meta name = "author" content = "Manav Kanaya">
+  <link rel = "stylesheet" href="captcha.css">
+</head>
+
+<body>
+
+<header>
+<h1>ManavCAPTCHA</h1>
+</header>
+<p id="message">Message here</p>
+
+<div class = "canvas_div">
+<canvas id = "canvas1" height="200" width = "1000"></canvas>
+</div>
+
+<p>
+  <button name = "verifybutton" id="verifybutton">Verify</button>
+  <button name = "reinitialisebutton" id="reinitialisebutton">Reinitialise</button>
+</p>
+<h2>Information</h2>
+<p id="information1">My program works by displaying randomly generated images of elephants and fish in the grid. If a user clicks on the image, it gets marked by a green dot in the 
+   bottom corner of the image. When the user has finished they can press the 'verify' button to check their selection. If their selection is detected correct, an image of 
+   a 'smiley face' is displayed and if their selection does not match what the prompt is asking for, then an image of a red exclamation mark is displayed. When the user 
+   presses the 'reinitialise' button, the program restarts and a new set of images are displayed.
+</p>
+<p id="information2">
+  My website is displayable on both mobile and desktop browser sceens and I tested the website on both the desktop and mobile modes in Microsoft Edge. When testing the website
+  using mobile mode, I tested with different sizes of mobile screens such as the iPhone 12 Pro screen size and the Samsung Galaxy S8 + screen size. Using the developer tools 
+  in Microsoft Edge, I also checked how the website looked on screens slightly larger than a phone such as on an iPad Pro.
+</p>
+
+<footer>
+&copy Manav Kanaya 2023
+</footer>
+
+<script src = "./captcha.js"></script>
+
+</body>
+
+</html>

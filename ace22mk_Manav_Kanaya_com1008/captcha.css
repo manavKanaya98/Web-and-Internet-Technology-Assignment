@@ -1,0 +1,62 @@
+header h1 {
+font-size: 2rem;
+font-family: Arial;
+color: black;
+}
+
+body {
+    background-color: azure;
+}
+
+#message {
+    font-size: 1rem;
+    font-family:Arial;
+    color: rgb(15, 15, 102) ;
+}
+
+.canvas_div {
+    display: inline-block;
+}
+
+canvas {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+ #verifybutton {
+    font-family:Arial;
+    font-size: 1rem;
+    color: black;
+}
+
+#reinitialisebutton {
+    font-family:Arial;
+    font-size: 1rem;
+    color: black;
+}
+
+h2 {
+    font-family:Arial;
+    font-size: 1rem;
+    color: black;
+}
+
+#information1 {
+    font-family:Arial;
+    font-size: 1rem;
+    color: black;
+}
+
+#information2 {
+    font-family:Arial;
+    font-size: 1rem;
+    color: black;
+}
+
+footer {
+    font-size: 1rem;
+    font-family: Arial;
+    color: black;
+}
+
